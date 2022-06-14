@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meteo App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result">
+        <p>Actuellement :&nbsp;<span id="condition"></span></p>
+        <p>
+          Aujourd'hui,&nbsp;<span id="day_long"></span>&nbsp;<span
+            id="fcst_day_0-date"
+          ></span
+          >, le soleil se lève à &nbsp;<span id="city_info-sunrise"></span
+          >&nbsp; et se couche à <span id="city_info-sunset"></span>
+        </p>
+        <div>
+          <img
+            id="logo"
+            src="images/sunny.svg"
+            width="200px"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+      <select name="city" id="city"></select>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

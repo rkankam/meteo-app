@@ -1,0 +1,49 @@
+* {
+  font-family: monospace;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+select {
+  background-color: rgba(74, 119, 153, 1);
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  outline: 1px solid white;
+  outline-offset: 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    173deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(74, 119, 153, 1) 41%,
+    rgba(163, 239, 255, 1) 100%
+  );
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+
+  margin: 100px auto 0 auto;
+}
+
+#city {
+  margin-bottom: 40px;
+  text-align: center;
+  height: 4rem;
+}
+
+.result {
+  margin-top: 30px;
+}
